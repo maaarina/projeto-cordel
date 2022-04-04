@@ -1,35 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Audiowide&family=Bebas+Neue&family=Ubuntu+Mono:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Audiowide&family=Bebas+Neue&family=Roboto:ital,wght@0,400;1,300&family=Ubuntu+Mono:wght@400;700&display=swap');
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+root{
+    --font-p: 'Sriracha', cursive;
+    --font-header: 'Passion One', cursive;
+    --font-p02: Verdana, Geneva, Tahoma, sans-serif
+}
 
 *{
-    padding: 0%;
     margin: 0%;
+    padding: 0%;
 }
 
 header{
     background-color: black;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-
-h1{
     color: #fff;
     text-align: center;
-    
-    font-family: 'Alfa Slab One', cursive, sans-serif;
-    font-size: 85px;
 }
 
-p{
-    color: #fff;
+header h1{
+    padding-top: 50px;
+    font-size: 10vw;
+    font-family: 'Passion One', cursive;
+}
+
+#pheader{
+    padding-bottom: 3.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     text-align: center;
-    ;
-    font-family:'Roboto', sans-serif;
 }
 
 p a{
-    color: #fff;
     text-decoration: none;
-
+    color: #fff;
 }
 
+a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+
+section{
+    display: block;
+    font-family: 'Sriracha', cursive;
+    font-size: 2.1vw;
+}
+
+section.text{
+    padding-left: 35px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.image{
+    background-size: cover;
+    color: white;
+    padding: 45px;    
+    background-attachment: fixed;
+}
+
+#image01{
+    padding: 15vh;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#image02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    padding: 15vh;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 3vh;
