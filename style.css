@@ -21,13 +21,12 @@ header{
 }
 
 header h1{
-    padding-top: 50px;
     font-size: 10vw;
     font-family: 'Passion One', cursive;
 }
 
 #pheader{
-    padding-bottom: 3.5vh;
+    padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
@@ -45,33 +44,48 @@ a:hover{
 
 section{
     display: block;
+    padding-top: 5vh;
+    line-height: 1.5em;
     font-family: 'Sriracha', cursive;
-    font-size: 2.1vw;
+    font-size: 3vw;
+
+    /*display: block;
+    font-family: 'Sriracha', cursive;
+    font-size: 2.1vw;*/
 }
 
 section.text{
     padding-left: 35px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
 }
 
 section.image{
     background-size: cover;
-    color: white;
-    padding: 45px;    
     background-attachment: fixed;
+    color: white;    
 }
 
 #image01{
-    padding: 15vh;
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    padding-left: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+
+
+    /*padding: 15vh;
+    padding-left: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;*/
 }
 
 #image02{
     background-image: url(imagens/background002.jpg);
     background-position: right center;
-    padding: 15vh;
+    padding-left: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
 }
 
 
@@ -79,4 +93,7 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7.5px
+}
