@@ -6,7 +6,7 @@
 root{
     --font-p: 'Sriracha', cursive;
     --font-header: 'Passion One', cursive;
-    --font-p02: Verdana, Geneva, Tahoma, sans-serif
+    --font-p02: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 *{
@@ -14,7 +14,12 @@ root{
     padding: 0%;
 }
 
+html, body{
+    min-height: 100vh;
+}
+
 header{
+    padding-top: 50px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -48,41 +53,41 @@ section{
     line-height: 1.5em;
     font-family: 'Sriracha', cursive;
     font-size: 3vw;
-
-    /*display: block;
-    font-family: 'Sriracha', cursive;
-    font-size: 2.1vw;*/
 }
 
+
 section.text{
-    padding-left: 35px;
     padding-top: 8vh;
     padding-bottom: 5vh;
+    padding-left: 30px;
 }
 
 section.image{
-    background-size: cover;
-    background-attachment: fixed;
+    
+    
     color: white;    
+}
+
+section.image p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.356);
 }
 
 #image01{
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
     padding-left: 10vh;
     padding-top: 8vh;
     padding-bottom: 8vh;
-
-
-    /*padding: 15vh;
-    padding-left: 10vh;
-    padding-top: 8vh;
-    padding-bottom: 8vh;*/
 }
 
 #image02{
     background-image: url(imagens/background002.jpg);
     background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
     padding-left: 10vh;
     padding-top: 8vh;
     padding-bottom: 8vh;
