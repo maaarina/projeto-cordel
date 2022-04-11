@@ -3,11 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-root{
-    --font-p: 'Sriracha', cursive;
-    --font-header: 'Passion One', cursive;
-    --font-p02: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 *{
     margin: 0%;
