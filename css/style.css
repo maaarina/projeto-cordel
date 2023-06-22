@@ -53,14 +53,16 @@ a:hover {
 section {
     padding-top: 5vh;
 
-    line-height: 1.3em;
+    line-height: 1.5em;
     
     font-family: 'Sriracha', cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 section.text {
     margin-left: 4rem;
+
+    font-size: 2rem;
 
     padding-top: 8vh;
     padding-bottom: 5vh;
@@ -81,6 +83,7 @@ section.image p {
     margin-left: 5rem;
 
     background-color: rgba(0, 0, 0, 0.356);
+    font-size: 2rem;
 }
 
 #image01 {
