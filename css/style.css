@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    min-height: 100vh;
+
+    background-color: rgb(251, 255, 239);
+}
+
+header {
+    background-color: black;
+    color: #ffffff;
+
+    padding-top: 5rem;
+
+    text-align: center;
+}
+
+header h1 {
+    font-size: 5.5vw;
+    font-family: 'Passion One', cursive;
+}
+
+#pheader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+    padding-bottom: 5rem;
+
+    text-align: center;
+}
+
+p a {
+    color: #c1f8ff;
+
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(71, 187, 255);
+
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 5vh;
+
+    line-height: 1.3em;
+    
+    font-family: 'Sriracha', cursive;
+    font-size: 2.5rem;
+}
+
+section.text {
+    margin-left: 4rem;
+
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+    padding-left: 30px;
+}
+
+/*================== imagens*/
+
+section.image {
+    color: #ffffff;
+}
+
+section.image p {
+    display: inline-block;
+
+    padding: 1.5rem 1rem;
+
+    margin-left: 5rem;
+
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+#image01 {
+    background-image: url(https://img.freepik.com/fotos-premium/blur-park-com-bokeh-light-background-natureza_7190-790.jpg);
+
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding-left: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#image02 {
+    background-image: url(https://img.elo7.com.br/product/original/3CF2EF3/convite-carta-de-hogwarts-harry-potter.jpg);
+
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding-left: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+/*================== footer*/
+
+footer {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    padding: 1rem;
+}
